@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { fadeIn } from "@/lib/animations"
 import { Database, Cloud, Code, BarChart, Server, Workflow } from "lucide-react"
-import SkillChart from "@/components/skill-chart"
+
 
 const skillCategories = [
   {
@@ -153,9 +153,7 @@ export default function Skills() {
                       ))}
                     </div>
                   </div>
-                  <div className="flex items-center justify-center">
-                    <SkillChart skills={category.skills} />
-                  </div>
+                 
                 </div>
               </motion.div>
             </TabsContent>

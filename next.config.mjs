@@ -13,9 +13,12 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  output: 'export',
   images: {
     unoptimized: true,
   },
+  basePath: '/Portfolio',           // 👈 add this
+  assetPrefix: '/Portfolio/',       // 👈 and this
   experimental: {
     webpackBuildWorker: true,
     parallelServerBuildTraces: true,
@@ -45,4 +48,4 @@ function mergeConfig(nextConfig, userConfig) {
   }
 }
 
-export default nextConfig
+

@@ -13,9 +13,9 @@ import ProjectModal from "@/components/project-modal"
 const projects = [
   {
     id: "borderlands",
-    title: "Digital humanities",
+    title: "Digital humanities Website",
     description: "website with 95% accuracy deployed via a JavaScript, HTML web app",
-    image: "C:\Users\schevula\Desktop\portfolio-master\portfolio-master\public\humanities.png",
+    image: "/humanities.png",
     category: "Software Development",
     tags: ["Node.Js","CSS", "JavaScript", "HTML"],
     fullDescription:
@@ -33,8 +33,8 @@ const projects = [
   {
     id: "portfolio",
     title: "Portfolio",
-    description: "website with 90% accuracy deployed via a JavaScript, HTML, React web app",
-    image: "C:\Users\schevula\Desktop\portfolio-master\portfolio-master\public\sreeja portfoli.jpg",
+    description: "portfolio deployed via a JavaScript, HTML, React web app",
+    image: "/portfolio.png",
     category: "Software Development",
     tags: ["Node.js", "HTML", "CSS", "Javascript", "React"],
     fullDescription:
@@ -48,6 +48,96 @@ const projects = [
       "shows my profile in elaborate manner",
     ],
   },
+  {
+    id: "Web Application",
+    title: "Website",
+    description: "website deployed via a JavaScript, HTML, CSS, PHP ",
+    image: "/Career.jpg",
+    category: "Software Development",
+    tags: ["PHP", "HTML", "CSS", "Javascript"],
+    fullDescription:
+      "Created a website using Php.it shows about variour career options",
+    technologies: ["PHP", "HTML", "CSS", "Javascript"],
+    links: {
+      github: "https://github.com/sreejach27",
+    },
+    achievements: [
+      "users can register the site and login into their account",
+      "shows various kinds of career options available.",
+    ],
+  },
+  {
+    id: "Android Application",
+    title: "Android Application",
+    description: "Application deployed via a Java, Android Studio,Firebase, XML ",
+    image: "/MVSR.jpg",
+    category: "Software Development",
+    tags: ["java", "XML", "Android Studio", "Firebase"],
+    fullDescription:
+      "Created a Application using Java.It is a app to file a complaint to respective department",
+    technologies: ["java", "XML", "Android Studio", "Firebase"],
+    links: {
+      github: "https://github.com/sreejach27",
+    },
+    achievements: [
+      "users can register the app and login into their account.",
+      "users can submit their requests to the respective department.",
+    ],
+  },
+  {
+    id: "Lightweight Seamless Authentication Based on Gait in Wearable IoT Systems",
+    title: "Lightweight Seamless Authentication Based on Gait in Wearable IoT Systems",
+    description: "Application deployed via a Java, Android Studio,Firebase, XML ",
+    image: "/you walk we authenticimg.jpg",
+    category: "Software Development",
+    tags: ["Machine Learning", "KNN Algorithm", "Random Forest Algorithm", "Multilayer Perceptron Algorithm"],
+    fullDescription:
+      "You Walk, We Authenticate is a lightweight seamless authentication framework based on gait (LiSA-G) that can authenticate and identify users on the widely available commercial smartwatches",
+    technologies: ["Machine Learning", "KNN Algorithm", "Random Forest Algorithm", "Multilayer Perceptron Algorithm"],
+    links: {
+      github: "https://github.com/sreejach27",
+    },
+    achievements: [
+      " User's unique walking pattern, gait, which is the pattern of limb movements during locomotion, can be utilized as a biometric feature for their authentication.",
+      
+    ],
+  },
+  {
+    id: "Visualisation",
+    title: "Data Visualisation",
+    description: "Visualisation using Plotly express and created scatter plots, bar charts, histograms.",
+    image: "/visualisation.png",
+    category: "Software Development",
+    tags: ["Plotly Express", "Python","Jupyter Notebook"],
+    fullDescription:
+      "Created a different kinds of visualisations using Plotly",
+    technologies: ["Plotly Express", "Python","Jupyter Notebook"],
+    links: {
+      github: "https://github.com/sreejach27",
+    },
+    achievements: [
+      "quickly spot patterns, trends",
+      "easy for users to explore the data",
+    ],
+  },
+  {
+    id: "sentiment analysis",
+    title: "Sentiment Analysis using Python",
+    description: "Sentiment Analysis model that can precisely categorize tweets of university into categories of positive and negative sentiments.",
+    image: "/NLP.png",
+    category: "Natural Language Processing",
+    tags: ["Python","TF-IDF algorithm","confusion matrix", "Jupyter Notebook"],
+    fullDescription:
+      " Created a Python-based sequential neural network model for sentiment analysis of tweets",
+    technologies: ["Sentiment Analysis","Python","TF-IDF algorithm","confusion matrix"],
+    links: {
+      github: "https://github.com/sreejach27",
+    },
+    achievements: [
+     "Effectiveness of natural language processing methods for the analysis of text data and the extraction of valuable insights",
+    ],
+  },
+
  
 ]
 
@@ -82,17 +172,7 @@ export default function Projects() {
           </p>
         </motion.div>
 
-        <Tabs defaultValue="all" value={activeCategory} onValueChange={setActiveCategory} className="w-full mb-8">
-          <TabsList className="grid w-full grid-cols-3 max-w-md mx-auto">
-            <TabsTrigger value="all">All Projects</TabsTrigger>
-            <TabsTrigger value="data-engineering">
-              <Database className="h-4 w-4 mr-2" /> Data Engineering
-            </TabsTrigger>
-            <TabsTrigger value="analytics">
-              <BarChart4 className="h-4 w-4 mr-2" /> Analytics
-            </TabsTrigger>
-          </TabsList>
-        </Tabs>
+       
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredProjects.map((project, index) => (

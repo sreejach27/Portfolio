@@ -34,10 +34,10 @@ export default function Contact() {
     try {
       // Replace the below placeholders with your actual EmailJS credentials.
       const result = await emailjs.send(
-        "service_fw8ol73",     // Your EmailJS service ID
-        "template_ywghqms",    // Your EmailJS template ID
+        "service_kvkwivp",     // Your EmailJS service ID
+        "template_ourj0gu",    // Your EmailJS template ID
         formData,
-        "DaTjK64QOX0QqAoud"         // Your EmailJS user ID (or public key)
+        "E7K694GNgZiG6wLGa"         // Your EmailJS user ID (or public key)
       )
       console.log("EmailJS result:", result.text)
       toast({

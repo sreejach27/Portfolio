@@ -41,7 +41,7 @@ const projects = [
       "Created a portfolio site using react.it shows about my profile and projects",
     technologies: ["Node.js", "HTML", "CSS", "Javascript", "React"],
     links: {
-      github: "https://github.com/sreejach27",
+      github: "https://github.com/sreejach27/Portfolio",
     },
     achievements: [
       "easy access to my profile",
@@ -59,7 +59,7 @@ const projects = [
       "Created a website using Php.it shows about variour career options",
     technologies: ["PHP", "HTML", "CSS", "Javascript"],
     links: {
-      github: "https://github.com/sreejach27",
+      github: "https://github.com/sreejach27/Web-application-Career-Guidance",
     },
     achievements: [
       "users can register the site and login into their account",
@@ -77,7 +77,7 @@ const projects = [
       "Created a Application using Java.It is a app to file a complaint to respective department",
     technologies: ["java", "XML", "Android Studio", "Firebase"],
     links: {
-      github: "https://github.com/sreejach27",
+      github: "https://github.com/sreejach27/Android-Application",
     },
     achievements: [
       "users can register the app and login into their account.",
@@ -113,7 +113,7 @@ const projects = [
       "Created a different kinds of visualisations using Plotly",
     technologies: ["Plotly Express", "Python","Jupyter Notebook"],
     links: {
-      github: "https://github.com/sreejach27",
+      github: "https://github.com/sreejach27/Visualization",
     },
     achievements: [
       "quickly spot patterns, trends",
@@ -131,7 +131,7 @@ const projects = [
       " Created a Python-based sequential neural network model for sentiment analysis of tweets",
     technologies: ["Sentiment Analysis","Python","TF-IDF algorithm","confusion matrix"],
     links: {
-      github: "https://github.com/sreejach27",
+      github: "https://github.com/sreejach27/Sentiment-Analysis-Using-PythonSentiment-Analysis-Using-Python",
     },
     achievements: [
      "Effectiveness of natural language processing methods for the analysis of text data and the extraction of valuable insights",

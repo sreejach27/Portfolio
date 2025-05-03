@@ -56,7 +56,7 @@ export default function About() {
             <div className="grid grid-cols-2 gap-4 mb-8">
               <div>
                 <h4 className="font-semibold mb-2">Name:</h4>
-                <p className="text-muted-foreground">Sreeja Reddy</p>
+                <p className="text-muted-foreground">Sreeja Ch</p>
               </div>
               <div>
                 <h4 className="font-semibold mb-2">Email:</h4>

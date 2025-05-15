@@ -46,7 +46,7 @@ export default function About() {
             <h3 className="text-2xl font-bold mb-4">Front End Developer with a passion for Development</h3>
             <p className="text-muted-foreground mb-6">
               I specialize in designing and developing responsive, user-friendly interfaces and building 
-              seamless front-end architectures that enhance user experience. With expertise in JavaScript, TypeScript, HTML5, CSS3, and modern frameworks like Angular and React, 
+              seamless front-end architectures that enhance user experience. With expertise in JavaScript, TypeScript, HTML5, CSS3, and modern frameworks like React and React, 
               I create scalable web applications that are both accessible and visually engaging.
             </p>
             <p className="text-muted-foreground mb-6">My background blends strong technical skills with a keen eye for user-centric design, allowing me to translate complex requirements into intuitive and interactive user interfaces. 
@@ -69,7 +69,7 @@ export default function About() {
             </div>
 
             <Button className="gap-2" asChild>
-              <a href="\Sreeja FrontSt L A Ro.pdf" download>
+              <a href="\Sreeja FrontSt L U.pdf" download>
                Download Resume
               </a>
             </Button>

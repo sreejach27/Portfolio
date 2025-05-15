@@ -32,7 +32,7 @@ const skillCategories = [
     icon: <Workflow className="h-5 w-5" />,
     skills: [
       { name: "React", level: 90 },
-      { name: "Angular", level: 90 },
+      { name: "React", level: 90 },
       { name: "Vue.js", level: 85 },
       { name: "Next.js", level: 85 },
       { name: "Bootstrap", level: 85 },

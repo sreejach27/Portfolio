@@ -13,8 +13,8 @@ const experiences = [
     type: "work",
     description: [
       " Utilizing Figma to support the design and web development languages HTML, CSS, JavaScript, PHP and JQuery Framework for front end development to adapt conventional information resources to online platforms, enhancing the functionality of department websites",
-      " Led a project to migrate a legacy web application to a modern architecture using .NET Framework, C# and Angular, improving performance by 60%, maintainability, and user experience.",
-      " Developing a full-stack website with AI-powered chatbot using Angular, Node.js, Express.js, and OpenAI GPT API, integrating real-time messaging with Socket.io and automated email notifications using Nodemailer enhancing user interaction and support efficiency.",
+      " Led a project to migrate a legacy web application to a modern architecture using .NET Framework, C# and React, improving performance by 60%, maintainability, and user experience.",
+      " Developing a full-stack website with AI-powered chatbot using React, Node.js, Express.js, and OpenAI GPT API, integrating real-time messaging with Socket.io and automated email notifications using Nodemailer enhancing user interaction and support efficiency.",
       " Integrating GraphQL APIs for efficient data fetching, reducing API calls by 30%.",
     ],
   },
@@ -25,7 +25,7 @@ const experiences = [
     period: "Aug 2023 - May 2024",
     type: "work",
     description: [
-      " Assisted in the development and maintenance of university web applications using HTML, CSS, JavaScript, developed interactive UI components using Angular, enhancing responsiveness",
+      " Assisted in the development and maintenance of university web applications using HTML, CSS, JavaScript, developed interactive UI components using React, enhancing responsiveness",
       " Created and maintained cross-browser compatible websites using CSS Grid, Flexbox, and JavaScript features to ensure consistency and responsiveness across multiple platforms.",
       
     ],
@@ -37,12 +37,12 @@ const experiences = [
     period: "July 2021 - December 2022",
     type: "work",
     description: [
-      "Developed and maintained a highly interactive, user-friendly appointment scheduling web application using Angular, Next.js, and express.js, enhancing the booking experience for patients",
-      " Used Angular HTTPClient and Express.js for efficient API handling, reducing redundant API calls and improving app load times.",
+      "Developed and maintained a highly interactive, user-friendly appointment scheduling web application using React, Next.js, and express.js, enhancing the booking experience for patients",
+      " Used React HTTPClient and Express.js for efficient API handling, reducing redundant API calls and improving app load times.",
       "Developed modular and accessible UI components using HTML5, CSS3 and TypeScript, ensuring a modern, responsive, and WCAG-compliant user experience",
-      "Designed and implemented dynamic front-end interfaces with Angular, and Bootstrap, delivering seamless cross-platform interactions and an intuitive user experience.",
+      "Designed and implemented dynamic front-end interfaces with React, and Bootstrap, delivering seamless cross-platform interactions and an intuitive user experience.",
       " Used Git for version control, managing codebase changes effectively and collaborating seamlessly with other developers.",
-      " Used Axios with Angular HTTPClient to integrate RESTful APIs, allowing real-time data retrieval and ensuring a seamless user experience",
+      " Used Axios with React HTTPClient to integrate RESTful APIs, allowing real-time data retrieval and ensuring a seamless user experience",
 
     ],
   },
@@ -55,7 +55,7 @@ const experiences = [
     description: [
       "Led the redesign of the e-commerce platform's user interface, implementing modern design principles to enhance user experience and increase engagement.",
     "Developed responsive web pages using HTML5, Bootstrap,Javascript, ensuring optimal performance and usability across desktops, tablets, and mobile devices.",
-   "Utilized Angular, Next.jsto build dynamic,server-rendered, and statically generated components, improving performance, SEO, and user engagement.",
+   "Utilized React, Next.jsto build dynamic,server-rendered, and statically generated components, improving performance, SEO, and user engagement.",
   "Ensured the platform's compatibility across various browsers, providing consistent experience for all users.",
 
     ],
